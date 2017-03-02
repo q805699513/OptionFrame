@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/review"
+    android:orientation="vertical">
+
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/view"
+        android:divider="#DDDDDD"
+        android:dividerHeight="0.1dp"
+        android:background="#fff" />
+
+    <TextView
+        android:id="@+id/quxiao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:text="取消"
+        android:background="@drawable/linearlayoutbtn"
+        android:textColor="#404040"
+        android:textSize="20sp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:layout_above="@+id/quxiao"
+        android:background="#EBEDF0" />
+
+</RelativeLayout>

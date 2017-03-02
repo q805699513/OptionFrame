@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.longsh.optionframedemo.MainActivity">
+
+    <Button
+        android:id="@+id/qq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="仿QQ弹出框"
+        android:onClick="QQDialog"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button
+        android:id="@+id/weixin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="仿微信弹出框(四周带弧度)"
+        android:onClick="WXCenterDialog"
+        android:layout_marginTop="15dp"
+
+        />
+
+    <Button
+        android:id="@+id/weixinAi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="仿微信对话框AlertDialog"
+        android:onClick="WXDialog"
+        android:layout_marginTop="15dp"
+
+        />
+
+
+</LinearLayout>
