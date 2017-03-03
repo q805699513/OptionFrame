@@ -65,7 +65,7 @@ dependencies {
             .setMessage("支持所有布局文字大小颜色等设置。")
 //                .setMessageTextColor(R.color.colorPrimary)
 //                .setMessageTextSize((float) 16.5)
-//          .setPositiveButtonTextColor(R.color.colorAccent)
+//                .setPositiveButtonTextColor(R.color.colorAccent)
 //                .setNegativeButtonTextColor(R.color.colorPrimary)
 //                .setPositiveButtonTextSize(15)
 //                .setNegativeButtonTextSize(15)
