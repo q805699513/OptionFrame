@@ -20,9 +20,13 @@
 dependencies {
 
   compile 'com.longsh:OptionFrame:1.0.0'
-  
+ 
 }
+//由于内部使用的25的api，所以直接使用可能会跟你的版本的不同，造成导入问题。建议下载源码把gradle修改成你对应的api
+//后续有空可能会修改下
 ```
+
+
 
 ### 仿QQ底部弹出窗口
 ```java
