@@ -100,8 +100,8 @@ dependencies {
 
 ### Version: 1.0.0
 
-  有其他弹出窗的需求可以给我提Issues
-  
+  有其他弹出窗的需求可以给我提Issues,本文主要提供实现代码。其他弹窗布局可以自行下载源码修改
+  
 ## License
 ```text
 
